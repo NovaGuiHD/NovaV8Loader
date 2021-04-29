@@ -1,0 +1,146 @@
+local function CreateInstance(cls,props)
+    local inst = Instance.new(cls)
+    for i,v in pairs(props) do
+        inst[i] = v
+    end
+    return inst
+    end
+        
+    local NovaV7m = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='NovaV7m', Parent=game.CoreGui})
+    local b2 = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-2, 0, 0.5, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 81, 0, 900),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'b2',Parent = NovaV7m})
+    local b1 = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.494827151, 0, 0.499813557, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 81, 0, 399),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'b1',Parent = b2})
+    local config = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=5652012201',ImageColor3=Color3.new(0.435294, 0.435294, 0.435294),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.749178648, 0, 0.493819177, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='config',Parent = b1})
+    local mainscript = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=4728126418',ImageColor3=Color3.new(0.509804, 0.509804, 0.509804),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.745302796, 0, 0.185208887, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 35, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='mainscript',Parent = b1})
+    local AntiAFK = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=1083501283',ImageColor3=Color3.new(0.509804, 0.509804, 0.509804),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.736832976, 0, 0.293317914, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='AntiAFK',Parent = b1})
+    local somescript = CreateInstance('ImageButton',{Image='rbxassetid://4498590361',ImageColor3=Color3.new(0.509804, 0.509804, 0.509804),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.736832976, 0, 0.401087344, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='somescript',Parent = b1})
+    local sosscript = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=5652000213',ImageColor3=Color3.new(0.509804, 0.509804, 0.509804),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.736832976, 0, 0.584044755, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='sosscript',Parent = b1})
+    local credits = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=4652942402',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.736832976, 0, 0.674270332, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='credits',Parent = b1})
+    local btnLogoBack = CreateInstance('ImageButton',{Image='rbxassetid://932436179',ImageColor3=Color3.new(0.403922, 0.403922, 0.403922),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.729127288, 0, 0.747727573, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 15, 0, 15),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnLogoBack',Parent = b2})
+    local logo = CreateInstance('ImageLabel',{Image='http://www.roblox.com/asset/?id=4882233954',ImageColor3=Color3.new(0.952941, 0.952941, 0.952941),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.732719362, 0, 0.25190863, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 25, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='logo',Parent = b2})
+    local Sample = CreateInstance('ImageLabel',{Image='http://www.roblox.com/asset/?id=4560909609',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0.60000002384186,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 0, 0, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Sample',Parent = b2})
+    local barmaingui = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.74500078, 0, 0.278414607, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 40, 0, 1),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'barmaingui',Parent = b2})
+    local b3 = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.057, 0, 0.930000007, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.082386367, 0, 0.192699492, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'b3',Parent = NovaV7m})
+    local btnLogoIn = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=932030878',ImageColor3=Color3.new(0.403922, 0.403922, 0.403922),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.846179724, 0, 0.250083923, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 15, 0, 15),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnLogoIn',Parent = b3})
+    local conftg = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0359999985, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 84, 0, 84),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'conftg',Parent = NovaV7m})
+    local UIListLayout = CreateInstance('UIListLayout', {Padding = UDim.new(0, 1), FillDirection = Enum.FillDirection.Vertical, HorizontalAlignment = Enum.HorizontalAlignment.Center, SortOrder = Enum.SortOrder.Name, VerticalAlignment = Enum.VerticalAlignment.Top, Name = 'UIListLayout', Parent = conftg })
+    local cbless = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Blessing',TextColor3=Color3.new(0.545098, 0.545098, 0.545098),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0759999976, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 85, 0, 12),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='cbless',Parent = conftg})
+    local astand = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Current Stand',TextColor3=Color3.new(0.545098, 0.545098, 0.545098),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0759999976, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 85, 0, 12),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='astand',Parent = conftg})
+    local bfuse = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Fuse:',TextColor3=Color3.new(0.545098, 0.545098, 0.545098),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0759999976, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 85, 0, 12),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='bfuse',Parent = conftg})
+    local dtrait = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Trait',TextColor3=Color3.new(0.545098, 0.545098, 0.545098),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0759999976, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 85, 0, 12),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='dtrait',Parent = conftg})
+    local eworth = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Worth ',TextColor3=Color3.new(0.545098, 0.545098, 0.545098),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0759999976, 0, 2, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 85, 0, 12),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='eworth',Parent = conftg})
+    --visual
+    conftg:TweenPosition(UDim2.new(0.04, 0,0.9, 0), 'In', 'Bounce', 1, true)
+    local TweenService = game:GetService("TweenService")
+    local tweenInfo2 = TweenInfo.new(1.5, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
+    local bobao = TweenService:Create(logo, tweenInfo2, {Rotation=360})
+    local ms = game.Players.LocalPlayer:GetMouse()
+    btn = config
+    bobao:Play()
+    bobao.Completed:Connect(function()
+        logo.Rotation=0
+        wait(5)
+        bobao:Play()
+    end)
+loadstring(game:HttpGet("https://pastebin.com/raw/4VAVPL6e", true))() --halloween
+    function touch()
+        local c = Sample:Clone()
+        c.Parent = btn
+        local x, y = (ms.X - c.AbsolutePosition.X), (ms.Y - c.AbsolutePosition.Y)
+        c.Position = UDim2.new(0, x, 0, y)
+        local len, size = 0.35, nil
+        if btn.AbsoluteSize.X >= btn.AbsoluteSize.Y then
+            size = (btn.AbsoluteSize.X * 1.5)
+        else
+            size = (btn.AbsoluteSize.Y * 1.5)
+        end
+        c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
+        for i = 1, 10 do
+            c.ImageTransparency = c.ImageTransparency + 0.05
+            wait(len / 12)
+        end
+        c:Destroy()
+    end
+    --abrir e fechar
+    btnLogoIn.MouseButton1Click:Connect(function()
+        btn=btnLogoIn
+        touch()	
+        b2:TweenPosition(UDim2.new(0.001, 0,0.5, 0), 'In', 'Bounce', 1, true)
+        wait(1)
+        b3.Visible=false
+    end)
+    btnLogoBack.MouseButton1Click:Connect(function()
+        btn=btnLogoBack
+        touch()
+        b2:TweenPosition(UDim2.new(-2, 0,0.5, 0), 'Out', 'Bounce', 1, true)
+        b3.Visible=true
+    end)
+    --botoes do gui
+    AntiAFK.MouseButton1Click:Connect(function()
+        btn=AntiAFK
+        touch()
+        local afkbruh = game.CoreGui:FindFirstChild("AFKguiM")
+        if afkbruh then
+            print("alr")    
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/ycpC45L9", true))()	
+        end
+    end)
+    mainscript.MouseButton1Click:Connect(function()
+        btn=mainscript
+        touch()
+        local main = game.CoreGui:FindFirstChild("NovaV8")
+        if main then
+            game.CoreGui.NovaV8.openedgui:TweenPosition(UDim2.new(0.517, 0, 0.547, 0))
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/GP44TzbN", true))() 	
+        end
+    end)
+    credits.MouseButton1Click:Connect(function()
+        btn=credits
+        touch()
+        local credi = game.CoreGui:FindFirstChild("creditsgui")
+        if credi then
+            print("alr")    
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/fqTcg89U", true))()	
+        end
+    end)
+    sosscript.MouseButton1Click:Connect(function()
+        btn=sosscript
+        touch()
+        local sos = game.CoreGui:FindFirstChild("helpgui")
+        if sos then
+            print("alr")    
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/iKaP5YcB", true))()	
+        end
+    end)
+    config.MouseButton1Click:Connect(function()
+        btn=config
+        touch()
+        local con = game.CoreGui:FindFirstChild("optionsgui")
+        if con then
+            game.CoreGui.optionsgui.back.Visible=true    
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/x1k3A2eM", true))()	
+        end
+    end)
+	somescript.MouseButton1Click:Connect(function()
+        btn=somescript
+        touch()
+        local con = game.CoreGui:FindFirstChild("AuxiliarScript")
+        if con then
+            game.CoreGui.AuxiliarScript.back.Visible=true    
+        else
+            loadstring(game:HttpGet("https://pastebin.com/raw/vhXwRcaM", true))()	
+        end
+    end)
+    while wait() do
+        color = Color3.new((math.sin(workspace.DistributedGameTime/2)/2)+0.5, (math.sin(workspace.DistributedGameTime)/2)+0.5, (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5)
+        barmaingui.BackgroundColor3 = color
+        astand.Text = game.Players.LocalPlayer.Stand.Value
+        bfuse.Text = game.Players.LocalPlayer.FusedStand.Value
+        cbless.Text = game.Players.LocalPlayer.Blessing.Value
+        eworth.Text = "Worth: " .. game.Players.LocalPlayer.Worth.Value
+        dtrait.Text = game.Players.LocalPlayer.Trait.Value
+    end
