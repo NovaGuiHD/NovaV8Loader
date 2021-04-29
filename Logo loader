@@ -1,0 +1,62 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 4 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local Start = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='Start', Parent=game.CoreGui})
+local fundo = CreateInstance('ImageLabel',{Image='http://www.roblox.com/asset/?id=282305376',ImageColor3=Color3.new(0.117647, 0.117647, 0.117647),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.499716341, 0, 0.499162555, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 0, 0, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='fundo',Parent = Start})
+local logo = CreateInstance('ImageLabel',{Image='http://www.roblox.com/asset/?id=4581878998',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.499461889, 0, 0.498620927, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 0, 0, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='logo',Parent = Start})
+local n = CreateInstance('ImageLabel',{Image='http://www.roblox.com/asset/?id=4581599378',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.499496758, 0, 0.495252371, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 0, 0, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='n',Parent = Start})
+
+local TweenService = game:GetService("TweenService")
+
+local newSize = UDim2.new(0, 81,0, 77)
+local fundotamanho =UDim2.new(0,100,0,100)
+local logotamanho = UDim2.new(0,73,0,72)
+local tweenInfo1 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+local tween1 = TweenService:Create(n, tweenInfo1, {Size=newSize})
+local tweenInfo2 = TweenInfo.new(1.5, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
+local tween2 = TweenService:Create(n, tweenInfo2, {Rotation=360})
+local fundo2 = TweenService:Create(fundo, tweenInfo1, {Size=fundotamanho})
+local bobao = TweenService:Create(logo, tweenInfo2, {Rotation=360})
+local logoh = TweenService:Create(logo, tweenInfo1, {Size=logotamanho})
+fundo2.Completed:Connect(function()
+	tween1:Play()
+	wait(0.5)
+	logoh:Play()
+end)
+ 
+tween1.Completed:Connect(function()
+	tween2:Play()
+	wait(0.5)
+	bobao:Play()
+end)
+
+fundo2:Play()
+
+bobao.Completed:Connect(function()
+	wait()
+	n:TweenSize(UDim2.new(0, 0, 0, 0))
+	wait(.1)
+	logo:TweenSize(UDim2.new(0, 0, 0, 0))
+	wait(.1)
+	fundo:TweenSize(UDim2.new(0, 0, 0, 0))
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Alert";
+    Text ="Donations?? dm GotmyGold#4628";
+Duration = 20;
+	})
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Alert";
+    Text ="Fixed Money farm,Added Halloween itens and new stand";
+Duration = 10;
+	})
+loadstring(game:HttpGet("https://pastebin.com/raw/mrVqHLnU", true))()
+wait(3)
+Start:Destroy()
+	end)
