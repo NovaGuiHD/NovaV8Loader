@@ -84,7 +84,7 @@ end)
 btnservertim.MouseButton1Click:Connect(function()
 	btn=btnservertim
 	touch()
-	loadstring(game:HttpGet("https://pastebin.com/raw/q2s0HHM8", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/main/ServerTime"))()
 end)
 
 btnadmin.MouseButton1Click:Connect(function()
