@@ -1,0 +1,127 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 9 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local AlertBossGui = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='AlertBossGui', Parent=game.CoreGui})
+local AlertBoss = CreateInstance('ImageLabel',{Image='rbxassetid://2851926732',ImageColor3=Color3.new(0.117647, 0.117647, 0.117647),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0.25,ScaleType=Enum.ScaleType.Slice,SliceCenter=Rect.new(12, 12, 12, 12),Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=true,Draggable=false,Position=UDim2.new(2, 0, 0.583999991, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 130, 0, 149),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='AlertBoss ',Parent = AlertBossGui})
+local title = CreateInstance('TextLabel',{Font=Enum.Font.GothamBold,FontSize=Enum.FontSize.Size18,Text='Alert Boss',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=17,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0076923077, 0, 0.056457825, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 103, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='title',Parent = AlertBoss })
+local btndio = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Alert Dio',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.330000013, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 129, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btndio',Parent = AlertBoss })
+local close = CreateInstance('ImageButton',{Image='rbxassetid://3494886164',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.952941, 0.262745, 0.27451),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.8009184, 0, 0.0229007676, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 24),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='close',Parent = AlertBoss})
+local rainbow = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.25,BorderColor3=Color3.new(0.27451, 0.85098, 0.937255),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.269954056, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 1),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'rainbow',Parent = AlertBoss})
+local btndiav = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Alert Diavolo',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.00600000005, 0, 0.639999986, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 130, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btndiav',Parent = AlertBoss })
+local btnkira = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Alert Kira',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.790000021, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 129, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnkira',Parent = AlertBoss })
+local btnbig = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Alert Notorius BIG',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.479999989, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 130, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnbig',Parent = AlertBoss })
+som = {908895929,3387018358,3774192672,1409923811} --1 dio,2 diavolo,3 big,4 kira
+AlertBoss:TweenPosition(UDim2.new(0.929, 0,0.584, 0))
+local m =Instance.new("Sound")
+m.Name = "Sound"
+m.SoundId = "http://www.roblox.com/asset/?id="..som[1]
+m.Volume = 0.5
+m.Pitch = 1
+m.Looped = false
+m.archivable = false
+m.Parent = game.Workspace
+
+local s =Instance.new("Sound")
+s.Name = "Sound"
+s.SoundId = "http://www.roblox.com/asset/?id="..som[2]
+s.Volume = 1.2
+s.Pitch = 1
+s.Looped = false
+s.archivable = false
+s.Parent = game.Workspace
+
+local b =Instance.new("Sound")
+b.Name = "Sound"
+b.SoundId = "http://www.roblox.com/asset/?id="..som[3]
+b.Volume = 1.2
+b.Pitch = 1
+b.Looped = false
+b.archivable = false
+b.Parent = game.Workspace
+
+local k =Instance.new("Sound")
+b.Name = "Sound"
+b.SoundId = "http://www.roblox.com/asset/?id="..som[4]
+b.Volume = 1.2
+b.Pitch = 1
+b.Looped = false
+b.archivable = false
+b.Parent = game.Workspace
+
+close.MouseButton1Click:Connect(function()
+	AlertBossGui:Destroy()
+end)
+btndio.MouseButton1Click:Connect(function()
+btndio.BackgroundColor3 = Color3.new(0, 1, 0.498039)
+btndio.TextColor3 = Color3.new(0,0,0)
+	local Dio = workspace:WaitForChild("DIO")
+if Dio then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Boss Spawn";
+Text = "Dio Spawned"; 
+Duration = 10;
+})
+m:Play()
+btndio.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+btndio.TextColor3 = Color3.new(1,1,1)
+end	
+end)
+btnbig.MouseButton1Click:Connect(function()
+btnbig.BackgroundColor3 = Color3.new(0, 1, 0.498039)
+btnbig.TextColor3 = Color3.new(0,0,0)	
+local Big = workspace:WaitForChild("Notorious B.I.G")
+if Big then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Boss Spawn";
+Text = "Notorious B.I.G Spawned"; 
+Duration = 10;
+})
+s:Play()
+btnbig.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+btnbig.TextColor3 = Color3.new(1,1,1)	
+end	
+end)
+btndiav.MouseButton1Click:Connect(function()
+btndiav.BackgroundColor3 = Color3.new(0, 1, 0.498039)
+btndiav.TextColor3 = Color3.new(0,0,0)	
+local Dia = workspace:WaitForChild("Diavolo")
+if Dia then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Boss Spawn";
+Text = "Diavolo Spawned"; 
+Duration = 10;
+})
+b:Play()
+btndiav.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+btndiav.TextColor3 = Color3.new(1,1,1)	
+end	
+end)
+btnkira.MouseButton1Click:Connect(function()
+btnkira.BackgroundColor3 = Color3.new(0, 1, 0.498039)
+btnkira.TextColor3 = Color3.new(0,0,0)	
+local Kira = workspace:WaitForChild("Kira")
+if Kira then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Boss Spawn";
+Text = "Kira Spawned"; 
+Duration = 10;
+})
+k:Play()
+btnkira.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+btnkira.TextColor3 = Color3.new(1,1,1)	
+end	
+end)
+while wait() do
+local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
+local g = (math.sin(workspace.DistributedGameTime)/2)+0.5
+local b = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+local color = Color3.new(r, g, b)
+rainbow.BackgroundColor3 = color
+end
