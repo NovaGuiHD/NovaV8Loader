@@ -1,0 +1,21 @@
+--ServerTimer
+--Created by Gui_HD(Nova)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+    inst[i] = v
+end
+return inst
+end
+    
+local watchtimer = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='watchtimer', Parent=game.CoreGui})
+local TempoServer = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='0 Hours',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.100943394, 0, 0.0184049085, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 86, 0, 13),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TempoServer',Parent = watchtimer})
+
+while wait()do
+local timer=game.Workspace.DistributedGameTime
+local seconds = timer%60
+local minutes = math.floor(timer/60%60)
+local hours = math.floor(timer/3600)
+local tempo = string.format("%.0f:%.0f:%.0f", hours ,minutes, seconds)
+TempoServer.Text = tempo
+end
