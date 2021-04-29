@@ -1,0 +1,297 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 24 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local AuxiliarScript = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='AuxiliarScript', Parent=game.CoreGui})
+local back = CreateInstance('ImageLabel',{Image='rbxassetid://2851926732',ImageColor3=Color3.new(0.156863, 0.156863, 0.156863),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Slice,SliceCenter=Rect.new(12, 12, 12, 12),Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=true,Draggable=true,Position=UDim2.new(0.401515156, 0, 0.198364004, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 208, 0, 294),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='back',Parent = AuxiliarScript})
+local closegui = CreateInstance('ImageButton',{Image='rbxassetid://3494886164',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.902816355, 0, 0.0387456268, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 23, 0, 24),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='closegui',Parent = back})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.GothamBold,FontSize=Enum.FontSize.Size14,Text='Auxiliar Scripts',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.25, 0, -0.00340136047, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 104, 0, 23),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = back})
+local ScrollingFrame = CreateInstance('ScrollingFrame',{BottomImage='rbxasset://textures/ui/Scroll/scroll-bottom.png',CanvasPosition=Vector2.new(0, 0),CanvasSize=UDim2.new(0, 0, 2, 0),MidImage='rbxasset://textures/ui/Scroll/scroll-middle.png',ScrollBarThickness=12,ScrollingEnabled=true,TopImage='rbxasset://textures/ui/Scroll/scroll-top.png',Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.156863, 0.156863, 0.156863),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0.5, 0, 0.525140285, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 208, 0, 262),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ScrollingFrame',Parent = back})
+local btnhability = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size18,Text='          Hability Gui',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0, 9, 0, 8),Rotation=0,Selectable=true,Size=UDim2.new(0, 179, 0, 47),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnhability',Parent = ScrollingFrame})
+local ImageLabel = CreateInstance('ImageLabel',{Image='rbxassetid://4498590361',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.129999995, -4, 0.100000001, 2),Rotation=0,Selectable=false,Size=UDim2.new(0, 35, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ImageLabel',Parent = btnhability})
+local btnclicktp = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size18,Text='          Click TP',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0, 9, 0, 62),Rotation=0,Selectable=true,Size=UDim2.new(0, 179, 0, 47),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnclicktp',Parent = ScrollingFrame})
+local ImageLabel = CreateInstance('ImageLabel',{Image='rbxassetid://4498590361',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.129999995, -4, 0.100000001, 2),Rotation=0,Selectable=false,Size=UDim2.new(0, 35, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ImageLabel',Parent = btnclicktp})
+local btnservertim = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size18,Text='          Server Timer',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0, 9, 0, 174),Rotation=0,Selectable=true,Size=UDim2.new(0, 179, 0, 47),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnservertim',Parent = ScrollingFrame})
+local ImageLabel = CreateInstance('ImageLabel',{Image='rbxassetid://4498590361',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.129999995, -4, 0.100000001, 2),Rotation=0,Selectable=false,Size=UDim2.new(0, 35, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ImageLabel',Parent = btnservertim})
+local btnadmin = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size18,Text='          Admin Alert',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0, 9, 0, 227),Rotation=0,Selectable=true,Size=UDim2.new(0, 179, 0, 47),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnadmin',Parent = ScrollingFrame})
+local ImageLabel = CreateInstance('ImageLabel',{Image='rbxassetid://4498590361',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.129999995, -4, 0.100000001, 2),Rotation=0,Selectable=false,Size=UDim2.new(0, 35, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ImageLabel',Parent = btnadmin})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size18,Text='Heal System',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.134615391, 0, 0.221595854, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 116, 0, 23),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = ScrollingFrame})
+local MaxS = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=false,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.368627, 0.368627, 0.368627),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.491071552, 0, 0.528220117, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.712912321, 0, 0.0237400848, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MaxS',Parent = ScrollingFrame})
+local BarS = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.196078, 0.588235, 0.980392),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.5, 0, 1, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'BarS',Parent = MaxS})
+local TextControlS = CreateInstance('TextBox',{ClearTextOnFocus=false,Font=Enum.Font.SourceSansBold,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0.784314, 0.784314, 0.784314), PlaceholderText='', PlaceholderColor3=Color3.new(0.392157, 0.392157, 0.392157),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.89999997615814,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.505302727, 0, 0.578317463, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.56011951, 0, 0.0348434858, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextControlS',Parent = ScrollingFrame})
+local TextControlJ = CreateInstance('TextBox',{ClearTextOnFocus=false,Font=Enum.Font.SourceSansBold,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0.784314, 0.784314, 0.784314), PlaceholderText='', PlaceholderColor3=Color3.new(0.392157, 0.392157, 0.392157),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.89999997615814,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.510110438, 0, 0.710970521, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.56011951, 0, 0.0348434858, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextControlJ',Parent = ScrollingFrame})
+local MaxJ = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=false,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(0.368627, 0.368627, 0.368627),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.495879233, 0, 0.660873175, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.712912321, 0, 0.0237400848, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MaxJ',Parent = ScrollingFrame})
+local BarJ = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.196078, 0.588235, 0.980392),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.5, 0, 1, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'BarJ',Parent = MaxJ})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Speed Power',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.115384616, 0, 0.482162386, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 158, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = ScrollingFrame})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Jump Power',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.11057692, 0, 0.608012736, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 158, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = ScrollingFrame})
+local heal = CreateInstance('ImageButton',{Image='http://www.roblox.com/asset/?id=1974474320',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Crop,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0.797668397, 0, 0.237658665, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 20, 0, 20),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='heal',Parent = ScrollingFrame})
+local rainbow = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.0748299286, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 208, 0, 1),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'rainbow',Parent = back})
+local Fire=false
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+local uis = game:GetService("UserInputService")
+local ap = Vector2.new(MaxS.AbsolutePosition.X, MaxS.AbsolutePosition.Y)
+local as = Vector2.new(MaxS.AbsoluteSize.X, MaxS.AbsoluteSize.Y)
+local x = mouse.X
+local down = false
+local apJ = Vector2.new(MaxJ.AbsolutePosition.X, MaxJ.AbsolutePosition.Y)
+local asJ = Vector2.new(MaxJ.AbsoluteSize.X, MaxJ.AbsoluteSize.Y)
+local xJ = mouse.X
+local downJ = false
+local FireJ=false
+btn=heal
+function touch()
+	local ms = game.Players.LocalPlayer:GetMouse()
+	local c = game.CoreGui.NovaV7m.b2.Sample:Clone()
+	c.Parent = btn
+	local x, y = (ms.X - c.AbsolutePosition.X), (ms.Y - c.AbsolutePosition.Y)
+	c.Position = UDim2.new(0, x, 0, y)
+	local len, size = 0.35, nil
+	if btn.AbsoluteSize.X >= btn.AbsoluteSize.Y then
+		size = (btn.AbsoluteSize.X * 1.5)
+	else
+		size = (btn.AbsoluteSize.Y * 1.5)
+	end
+	c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
+	for i = 1, 10 do
+		c.ImageTransparency = c.ImageTransparency + 0.05
+		wait(len / 12)
+	end
+	c:Destroy()
+end
+
+btnclicktp.MouseButton1Click:Connect(function()
+	btn=btnclicktp
+	touch()
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	local uis = game:GetService("UserInputService")
+	
+	local function clicktp(key)
+		if key.KeyCode == Enum.KeyCode.LeftAlt then
+			plr.Character.HumanoidRootPart.CFrame = mouse.Hit
+		end
+	end
+	uis.InputBegan:Connect(clicktp)
+end)
+
+btnservertim.MouseButton1Click:Connect(function()
+	btn=btnservertim
+	touch()
+	loadstring(game:HttpGet("https://pastebin.com/raw/q2s0HHM8", true))()
+end)
+
+btnadmin.MouseButton1Click:Connect(function()
+	btn=btnadmin
+	touch()
+	game.StarterGui:SetCore("SendNotification",{Title = "Activated";Text = "Auto kick you when staff joins";Duration = 4;})	
+	target = { "MlgArcOfOz","dabiomaru","soulites","pyfrog","Solkami","Tomintown1","Salliokaru","LittleBrotherE","Timsuper","TheTrueCrab","YinTakoda","shxwnns","NLAUxz","LO_OP","YinTakoda","shxwnns","NLAUxz","LO_OP","Unerthodox","miami13","chartebar","YinTakoda","Wildi","EndebrosEAV","Tomintown1","thebigafricanluck","FlaireZol","ilovecashews","theuberashiin","Lemon_aaa","tofuthegreatest","Dragonwizarder","YinTakoda","RoxasTheFallen"} 
+	
+	game:GetService'Players'.PlayerAdded:Connect(function(player)
+		for i,v in next, target do
+			if player.Name == v then
+				game:GetService'Players'.LocalPlayer:Kick("Staff Joined the game,kick for you safety")
+			end
+		end
+	end)
+end)
+heal.MouseButton1Click:Connect(function()
+	btn=heal
+	touch()
+	heal.ImageColor3=Color3.new(0.462745, 1, 0.298039)
+	game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(botao)
+		if (botao=="j") then
+			game:GetService("ReplicatedStorage").Specials.healevent:FireServer(CFrame.new(nil, nil, nil),math.huge,game:GetService("Workspace")[game.Players.LocalPlayer.Name]:WaitForChild("Humanoid"),game.Players.LocalPlayer.Character.Torso.voiceline,false)
+			
+		end
+	end)
+end)
+btnhability.MouseButton1Click:Connect(function()
+	btn=btnhability
+	touch()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Coming Soon";
+		Text = "";
+		Duration = 10;
+	})
+end)
+closegui.MouseButton1Click:Connect(function()
+	btn=closegui
+	touch()
+	back.Visible=false
+end)
+MaxS.MouseButton1Down:Connect(function()
+	
+	BarS.Size = UDim2.new(0, (mouse.X - ap.X), 1, 0)
+	Fire = true
+	down = true
+	
+end)
+
+uis.InputEnded:Connect(function(input, gp)
+	
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		
+		down = false
+		Fire= false
+		
+	end
+	
+end)
+
+mouse.Move:Connect(function()
+	
+	if down == true then
+		
+		Fire= false
+		Fire = true
+		
+		if mouse.X < ap.X then
+			
+			BarS.Size = UDim2.new(0, 0, 1, 0)
+			
+		elseif mouse.X > (ap.X + as.X) then
+			
+			BarS.Size = UDim2.new(0, as.X, 1, 0)
+			
+		else
+			
+			BarS.Size = UDim2.new(0, (mouse.X - ap.X), 1, 0)
+			
+		end
+		
+	end
+	
+end)
+
+
+
+TextControlS.FocusLost:Connect(function()
+	
+	if typeof(tonumber(TextControlS.Text)) == "number" then
+		
+		local num = tonumber(TextControlS.Text)
+		
+		if num >= 0 and num <= 100 then
+			
+			BarS.Size = UDim2.new(0, ((num / 100) * as.X), 1, 0)
+			
+		else
+			
+			TextControlS.Text = "Min 0, max 100"
+			
+		end
+		
+	else
+		
+		TextControlS.Text = "Not valid"
+		
+	end
+	
+end)
+
+MaxJ.MouseButton1Down:Connect(function()
+	
+	BarJ.Size = UDim2.new(0, (mouse.X - apJ.X), 1, 0)
+	FireJ = true
+	downJ = true
+	
+end)
+
+uis.InputEnded:Connect(function(input, gp)
+	
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		
+		downJ = false
+		FireJ= false
+		
+	end
+	
+end)
+
+mouse.Move:Connect(function()
+	
+	if downJ == true then
+		
+		FireJ= false
+		FireJ = true
+		
+		if mouse.X < apJ.X then
+			
+			BarJ.Size = UDim2.new(0, 0, 1, 0)
+			
+		elseif mouse.X > (apJ.X + asJ.X) then
+			
+			BarJ.Size = UDim2.new(0, asJ.X, 1, 0)
+			
+		else
+			
+			BarJ.Size = UDim2.new(0, (mouse.X - apJ.X), 1, 0)
+			
+		end
+		
+	end
+	
+end)
+
+
+
+TextControlJ.FocusLost:Connect(function()
+	
+	if typeof(tonumber(TextControlJ.Text)) == "number" then
+		
+		local numJ = tonumber(TextControlJ.Text)
+		
+		if numJ >= 0 and numJ <= 100 then
+			
+			BarJ.Size = UDim2.new(0, ((numJ / 100) * asJ.X), 1, 0)
+			
+		else
+			
+			TextControlJ.Text = "Min 0, max 100"
+			
+		end
+		
+	else
+		
+		TextControlJ.Text = "Not valid"
+		
+	end
+	
+end)
+
+while wait() do
+	local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
+	local g = (math.sin(workspace.DistributedGameTime)/2)+0.5
+	local b = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+	local color = Color3.new(r, g, b)
+	rainbow.BackgroundColor3 = color
+	if Fire == true then
+		
+		local maxSize = as.X
+		local size = BarS.Size.X.Offset
+		local num = (size / maxSize)
+		local num100 = 100 * (size / maxSize)
+		
+		TextControlS.Text = math.floor(num100)
+		game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = num100
+		
+	end
+	if FireJ == true then
+		
+		local maxSizeJ = asJ.X
+		local sizeJ = BarJ.Size.X.Offset
+		local numJ = (sizeJ / maxSizeJ)
+		local num100J = 100 * (sizeJ / maxSizeJ)
+		
+		TextControlJ.Text = math.floor(num100J)
+		game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = num100J
+		
+	end
+end
