@@ -1,0 +1,119 @@
+local checkroh = game.Players.LocalPlayer.currentrohan.Value
+local Enabled=false
+if checkroh == 0 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text = "Talk to Rohan"; 
+    Duration = 10;
+    })
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1620,875,-968)
+end
+
+if checkroh == 1 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text ="Get Hamon with Zeppeli";
+    Duration = 10;
+    })
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "";
+        Text ="Searching Zeppeli";
+        Duration = 10;
+    })
+    local zeppeli = workspace:WaitForChild("Zeppeli")
+    if zeppeli then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace["Zeppeli"].ClickPart.CFrame 
+    end
+end
+
+if checkroh == 2 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text = "Talk to Rohan"; 
+    Duration = 10;
+    })
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1620,875,-968)
+end
+
+if checkroh == 3 then
+	game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text ="Kill DIO";
+    Duration = 10;
+    })
+    local plr = game.Players.LocalPlayer.Character
+
+    for _,v in pairs(workspace:GetChildren()) do 
+    if v:FindFirstChild("Humanoid") and v.Name == "DIO" then
+    game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+    end
+    end
+    local diary = workspace:WaitForChild("Dio's Diary")
+    if diary then
+    for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+    if v.Name == "Dio's Diary" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+    end
+    end
+    end
+end
+
+if checkroh == 4 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text = "Talk to Rohan"; 
+    Duration = 10;
+    })
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1620,875,-968)
+end
+
+if checkroh == 5 then
+	game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text ="Get DIO's Diary and give it to Rohan";
+    Duration = 10;
+    })
+    local diary = workspace:WaitForChild("Dio's Diary")
+    if diary then
+    for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+    if v.Name == "Dio's Diary" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+    end
+    end
+    end
+end
+
+if checkroh == 7 then
+	game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text ="Kill Kira";
+    Duration = 10;
+	})
+    local plr = game.Players.LocalPlayer.Character
+
+    while wait() do
+    for _,v in pairs(workspace:GetChildren()) do 
+    if v:FindFirstChild("Humanoid") and v.Name == "Kira" then
+    game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+    end
+    end
+    end
+end
+
+
+if checkroh == 8 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text = "Talk to Rohan"; 
+    Duration = 10;
+    })
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1620,875,-968)
+end
+
+if checkroh == 9 then
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Rohan Quest";
+    Text = "Done"; 
+    Duration = 10;
+    })
+end
