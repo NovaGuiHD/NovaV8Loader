@@ -1,4 +1,4 @@
-local Nova = loadstring(game:HttpGet("https://pastebin.com/raw/FQ1acqWx"))()
+local Nova = loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/LibraryStandFarm"))()
 
 local main = Nova:CreateGui()
 main:CreateTier("Tier 1",Color3.new(0.498039, 0.74902, 1),"c1")
