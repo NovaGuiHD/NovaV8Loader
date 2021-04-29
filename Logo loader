@@ -56,7 +56,7 @@ Title = "Alert";
     Text ="Fixed Money farm,Added Halloween itens and new stand";
 Duration = 10;
 	})
-loadstring(game:HttpGet("https://pastebin.com/raw/mrVqHLnU", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/main/MainGui"))()
 wait(3)
 Start:Destroy()
 	end)
