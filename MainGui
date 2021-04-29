@@ -102,7 +102,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/4VAVPL6e", true))() --hallowee
         if credi then
             print("alr")    
         else
-            loadstring(game:HttpGet("https://pastebin.com/raw/fqTcg89U", true))()	
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/main/Credits"))()	
         end
     end)
     sosscript.MouseButton1Click:Connect(function()
