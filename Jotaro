@@ -1,0 +1,534 @@
+local checkjot = game.Players.LocalPlayer.currentjotaro.Value
+local Enabled=false
+if checkjot == 0 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+Text = "Talk to Jotaro"; 
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 1 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+Text ="Kill 5 Evil Star Platinum users";
+Duration = 10;
+})
+if game.PlaceId==2731332132 then
+local espu = workspace:WaitForChild("Evil Star Platinum User")
+if espu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Star Platinum User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 2 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 4 Evil Star Platinum users";
+Duration = 10;
+})
+if game.PlaceId==2731332132 then
+local espu = workspace:WaitForChild("Evil Star Platinum User")
+if espu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Star Platinum User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 3 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 3 Evil Star Platinum users";
+Duration = 10;
+})
+if game.PlaceId==2731332132 then
+local espu = workspace:WaitForChild("Evil Star Platinum User")
+if espu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Star Platinum User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 4 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 2 Evil Star Platinum users";
+Duration = 10;
+})
+if game.PlaceId==2731332132 then
+local espu = workspace:WaitForChild("Evil Star Platinum User")
+if espu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Star Platinum User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 5 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 1 Evil Star Platinum users";
+Duration = 10;
+})
+if game.PlaceId==2731332132 then
+local espu = workspace:WaitForChild("Evil Star Platinum User")
+if espu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Star Platinum User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 6 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Talk to Jotaro";
+Duration = 10;
+	})
+	if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 7 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Obtain and give a Red Aja to Jotaro";
+Duration = 10;
+	})
+local check = game.Players.LocalPlayer.Backpack
+if check:FindFirstChild("RedAja") then 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+local aja = workspace:WaitForChild("RedAja")
+if aja then
+for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+if v.Name == "RedAja" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301) 
+end
+end
+end
+end
+end
+if checkjot == 8 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Talk to Jotaro";
+Duration = 10;
+	})
+	if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 9 then
+	game.StarterGui:SetCore("SendNotification", {
+    Text ="Kill 10 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 10 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 9 Evil Stone Free users";
+Duration = 10;
+	})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 11 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 8 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 12 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 7 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 13 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 6 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 14 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 5 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 15 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 4 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 16 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 3 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 17 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 2 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 18 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill 1 Evil Stone Free users";
+Duration = 10;
+})
+if game.PlaceId==2295122555 then
+local esfu = workspace:WaitForChild("Evil Stone Free User")
+if esfu then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Evil Stone Free User" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 19 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Talk to Jotaro";
+Duration = 10;
+	})
+	if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 20 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Obtain and give a Vampire Mask to Jotaro";
+Duration = 10;
+})
+if game.PlaceId==2295122555 and game.Players.LocalPlayer.Money.Value <=15000 then
+	for i,v in next, debug.getregistry() do
+	if type(v) == "function" then
+		for a,b in next, debug.getupvalues(v) do
+			if string.find(a, "cooled") or string.find(a, "cooled2") or string.find(a, "cooled3") or string.find(a, "cooled4") or string.find(a, "cooled5") or string.find(a, "cooledz") then
+				debug.setupvalue(v, a, true)
+			end
+		end
+	end
+	 end
+	
+local function Kills()
+while game.Players.LocalPlayer.Money.Value<=15000 do 
+ for i,v in pairs(game.Workspace:GetChildren()) do
+   if v.Name == "Giant Dummy" or v.Name == "Metal Dummy" or v.Name == "Wood Dummy" or v.Name == "Ice Dummy" or v.Name == "Rock Dummy" then
+	  local A_1 = CFrame.new(nil, nil, nil)
+      local A_2 = 1000000000000
+      local A_3 = v.Humanoid
+      local A_4 = game.Players.LocalPlayer.Character.Torso.voiceline
+      local A_5 = false
+      local Event = game:GetService("ReplicatedStorage").Specials.healevent
+            Event:FireServer(A_1, A_2, A_3, A_4, A_5)
+	game.ReplicatedStorage.Logic.hitbox:InvokeServer(99, game.Players.LocalPlayer.Character.Head, CFrame.new(nil, nil, nil), 1000000000000, game.Players.LocalPlayer.Character.Torso.voiceline, v.Humanoid, false, false, false)
+
+    if game.Players.LocalPlayer.Money.Value>=15000 then break end
+
+   end
+ end
+end
+end
+for i = 1, 130 do
+  spawn(Kills)
+end
+elseif game.PlaceId==2731332132 then
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+elseif game.Players.LocalPlayer.Money.Value >=15000 then
+	game.ReplicatedStorage.Logic.giveitem:FireServer("VampireMask")
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301) 
+end	
+end
+
+	
+if checkjot == 21 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Talk to Jotaro";
+Duration = 10;
+	})
+	if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 22 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Kill Diavolo.";
+Duration = 10;
+	})
+if game.PlaceId==2731332132 then
+local Dia = workspace:WaitForChild("Diavolo")
+if Dia then
+local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do
+if v:FindFirstChild("Humanoid") and v.Name == "Diavolo" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end
+
+else
+	game:GetService("TeleportService"):Teleport(2731332132, LocalPlayer)
+end
+end
+if checkjot == 23 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Talk to Jotaro";
+Duration = 10;
+	})
+	if game.PlaceId==2295122555 then
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1908,875,-1301)
+else
+	game:GetService("TeleportService"):Teleport(2295122555, LocalPlayer)
+end
+end
+if checkjot == 24 then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Jotaro Quest";
+    Text ="Complete";
+Duration = 10;
+})
+end
