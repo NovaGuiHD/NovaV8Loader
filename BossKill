@@ -1,0 +1,74 @@
+--Boss kill GUI
+--Created by Gui_HD(Nova)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local BossKillGui = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='BossKillGui', Parent=game.CoreGui})
+local BossKill = CreateInstance('ImageLabel',{Image='rbxassetid://2851926732',ImageColor3=Color3.new(0.117647, 0.117647, 0.117647),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0.25,ScaleType=Enum.ScaleType.Slice,SliceCenter=Rect.new(12, 12, 12, 12),Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=true,Draggable=true,Position=UDim2.new(2, 0,0.584, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 130, 0, 149),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='BossKill',Parent = BossKillGui})
+local title = CreateInstance('TextLabel',{Font=Enum.Font.GothamBold,FontSize=Enum.FontSize.Size18,Text='Boss Kill Gui',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=17,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0076923077, 0, 0.056457825, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 103, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='title',Parent = BossKill})
+local btndio = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Kill Dio',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.330000013, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 129, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btndio',Parent = BossKill})
+local close = CreateInstance('ImageButton',{Image='rbxassetid://3494886164',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.952941, 0.262745, 0.27451),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.8009184, 0, 0.0229007676, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 24),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='close',Parent = BossKill})
+local rainbow = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.25,BorderColor3=Color3.new(0.27451, 0.85098, 0.937255),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.269954056, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 1),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'rainbow',Parent = BossKill})
+local btndiav = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Kill Diavolo',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.00600000005, 0, 0.639999986, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 130, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btndiav',Parent = BossKill})
+local btnkira = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Kill Kira',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.790000021, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 129, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnkira',Parent = BossKill})
+local btnbig = CreateInstance('TextButton',{Font=Enum.Font.GothamSemibold,FontSize=Enum.FontSize.Size14,Text='Kill Notorius BIG',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.479999989, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 130, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='btnbig',Parent = BossKill})
+BossKill:TweenPosition(UDim2.new(0.929, 0,0.584, 0))
+close.MouseButton1Click:Connect(function()
+	BossKill:TweenPosition(UDim2.new(2, 0,0.584, 0))
+end)
+btnbig.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do 
+if v:FindFirstChild("Humanoid") and v.Name == "Notorious B.I.G" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end)
+btndio.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do 
+if v:FindFirstChild("Humanoid") and v.Name == "DIO" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end)
+btndiav.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do 
+if v:FindFirstChild("Humanoid") and v.Name == "Diavolo" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end)
+btnkira.MouseButton1Click:Connect(function()
+	local plr = game.Players.LocalPlayer.Character
+
+while wait() do
+for _,v in pairs(workspace:GetChildren()) do 
+if v:FindFirstChild("Humanoid") and v.Name == "Kira" then
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(0,plr["Right Arm"],CFrame.new(0,0,0),math.huge,plr.Torso.voiceline,v:FindFirstChild("Humanoid"))
+end
+end
+end
+end)
+while wait() do
+local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
+local g = (math.sin(workspace.DistributedGameTime)/2)+0.5
+local b = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+local color = Color3.new(r, g, b)
+rainbow.BackgroundColor3 = color
+end
