@@ -122,7 +122,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/4VAVPL6e", true))() --hallowee
         if con then
             game.CoreGui.optionsgui.back.Visible=true    
         else
-            loadstring(game:HttpGet("https://pastebin.com/raw/x1k3A2eM", true))()	
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/main/Configs"))()	
         end
     end)
 	somescript.MouseButton1Click:Connect(function()
