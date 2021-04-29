@@ -332,7 +332,7 @@ local function CreateInstance(cls,props)
         if standcheckm then
             game.CoreGui.StandsFarm.StandsGUI:TweenPosition(UDim2.new(0.498945326, 0, 0.545793176, 0))
         else
-            loadstring(game:HttpGet("https://pastebin.com/raw/2WwCHarQ", true))()	
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/StandGUIm"))()	
         end
     end)
     --NPC
@@ -521,7 +521,7 @@ local function CreateInstance(cls,props)
         if standcheck then
             game.CoreGui.StandsFarm.StandsGUI:TweenPosition(UDim2.new(0.498945326, 0, 0.545793176, 0))
         else
-            loadstring(game:HttpGet("https://pastebin.com/raw/ejeejNkq", true))()	
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/StandGUI"))()	
         end
     end)
     btnfarmitemI.MouseButton1Click:Connect(function()
@@ -626,13 +626,13 @@ local function CreateInstance(cls,props)
         if killguicheck then
             game.CoreGui.BossKillGui.BossKill:TweenPosition(UDim2.new(0.929, 0,0.584, 0))
         else
-            loadstring(game:HttpGet("https://pastebin.com/raw/Ns3kSrmB", true))()	
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/BossKill"))()	
         end
     end)
     btnalert.MouseButton1Click:Connect(function()
         btn=btnalert
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/C4GsUGLV", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/NotificationAlert"))()
     end)
     btndupe.MouseButton1Click:Connect(function()
         if #players > 2 then
@@ -651,7 +651,7 @@ local function CreateInstance(cls,props)
     btnesp.MouseButton1Click:Connect(function()
         btn=btnesp
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/vwbxDc0u", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Esp"))()
     end)
     btninvisible.MouseButton1Click:Connect(function()
         btn=btninvisible
@@ -666,27 +666,27 @@ local function CreateInstance(cls,props)
     btnshop.MouseButton1Click:Connect(function()
         btn=btnshop
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/4kPWmS7v", true))() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Shop"))() 
     end)
     btnjotaro.MouseButton1Click:Connect(function()
         btn=btnjotaro
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/8RFvg6Yb", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Jotaro"))()
     end)
     btnrohan.MouseButton1Click:Connect(function()
         btn=btnrohan
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/gQhkpVgV", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Rohan"))()
     end)
     btnboom.MouseButton1Click:Connect(function()
         btn=btnboom
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/yuX0WpPe", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Radio"))()
     end)
     btnfusion.MouseButton1Click:Connect(function()
         btn=btnfusion
         touch()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Mt1bi2Hh", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaGuiHD/NovaV8Loader/Others/Fusion"))()
     end)
     --StatsChanger
     powerv.Text = game.Players.LocalPlayer.Power.Value
