@@ -1,0 +1,49 @@
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local Shop = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='Shop', Parent=game.CoreGui})
+local ShopGui = CreateInstance('ImageLabel',{Image='rbxassetid://2851926732',ImageColor3=Color3.new(0.117647, 0.117647, 0.117647),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0.25,ScaleType=Enum.ScaleType.Slice,SliceCenter=Rect.new(12, 12, 12, 12),Active=true,AnchorPoint=Vector2.new(0.5, 0.5),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=true,Draggable=true,Position=UDim2.new(0.511356711, 0, 0.541627824, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 201, 0, 160),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ShopGui',Parent = Shop})
+local roka = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='Rokakaka Fruit: $500',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.540298522, 0, 0.314456105, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='roka',Parent = ShopGui})
+local arrow = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='Arrow: $3500',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0793233812, 0, 0.314456105, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='arrow',Parent = ShopGui})
+local hamon = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='(Sub)Hamon  $200k',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.077611953, 0, 0.541175485, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='hamon',Parent = ShopGui})
+local separateshop = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.25,BorderColor3=Color3.new(0.27451, 0.85098, 0.937255),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.00499999989, 0, 0.230000004, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 1),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'separateshop',Parent = ShopGui})
+local vampiremask = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='(Sub)Vampire  $200k',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.540298522, 0, 0.541175485, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='vampiremask',Parent = ShopGui})
+local spin = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='(Sub)Spin  $200k',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.077611953, 0, 0.753675461, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='spin',Parent = ShopGui})
+local rock = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='(Sub)Rock Human  $200k',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.223529, 0.494118, 1),BackgroundTransparency=0.5,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.540298522, 0, 0.753675461, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 75, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='rock',Parent = ShopGui})
+local bar = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.117647, 0.117647, 0.117647),BackgroundTransparency=0.25,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 201, 0, 35),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'bar',Parent = ShopGui})
+local title = CreateInstance('TextLabel',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='Shop',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0, 0, 0),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.358208954, 0, 0.068702288, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 58, 0, 25),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='title',Parent = bar})
+local closeshop = CreateInstance('ImageButton',{Image='rbxassetid://3494886164',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.952941, 0.262745, 0.27451),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.870149195, 0, 0.0229007676, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 25, 0, 24),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='closeshop',Parent = bar})
+closeshop.MouseButton1Click:Connect(function()
+	ShopGui:Destroy()
+end)
+--Shop
+roka.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("RokakakaFruit")
+end)
+arrow.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("StandArrow") 
+end)
+vampiremask.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("Vampire") 
+end)
+spin.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("Spin") 
+end)
+rock.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("Rock Human") 
+end)
+hamon.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.Logic.giveitem:FireServer("Hamon") 
+end)
+while wait() do
+	local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
+	local g = (math.sin(workspace.DistributedGameTime)/2)+0.5
+	local b = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+	local color = Color3.new(r, g, b)
+	separateshop.BackgroundColor3 = color
+end
